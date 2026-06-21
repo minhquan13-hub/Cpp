@@ -9,6 +9,8 @@ bool check(long long x) {
 }
 long long a[1000005] ,n , s = 0;
 int main(){
+	freopen("C:\\Users\\Laptop VINHLINK\\Documents\\GitHub\\Cpp\\21062026\\Problem10\\SONGUYENTO.INP", "r", stdin);
+    freopen("C:\\Users\\Laptop VINHLINK\\Documents\\GitHub\\Cpp\\21062026\\Problem10\\SONGUYENTO.OUT", "w", stdout);
 	cin >> n;
 	for(long long i = 1;i<=n;i++) { //duyet tu i den n
 		cin >> a[i]; // nhap vao a[i]
